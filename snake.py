@@ -1,4 +1,5 @@
 import os
+import time
 tab = []
 line = []
 xtab = [5, 6, 7, 8]
@@ -31,4 +32,5 @@ for it in range (28):
             xtab[s] = 11
 
     print("=snakeboard=")
+    time.sleep(0.5)
     os.system('CLS')
