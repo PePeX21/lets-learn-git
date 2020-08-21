@@ -2,17 +2,17 @@ import os
 tab = []
 line = []
 xtab = [5, 6, 7, 8]
-ytab = [39, 40, 41, 42]
+ytab = [24, 25, 26, 27]
 snake = False
 
-for it in range (43):
-    for i in range(40):
+for it in range (28):
+    for i in range(25):
         for j in range(12):
             line.append("X")
         tab.append(line)
         line = []
 
-    for i in range(40):
+    for i in range(25):
         for j in range(12):
             for s in range(4):
                 if((i == ytab[s]) and (j == xtab[s])):
