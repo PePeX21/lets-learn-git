@@ -31,6 +31,6 @@ for it in range (28):
         if(xtab[s] < 0):
             xtab[s] = 11
 
-    print("=WTFFFFF=")
+    print("=dziekiiF=")
     time.sleep(0.5)
     os.system('CLS')
